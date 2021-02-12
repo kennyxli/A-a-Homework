@@ -112,5 +112,21 @@ label {
 /* Media Queries! */
 @media all and (max-width: 900px) {
 /* Code Goes Here */
+.col {
+  min-width: 550px;
+}
+nav ul {
+  display: none;
+}
+.hamburger-dropdown{
+  display:block;
+}
+.hamburger-dropdown > li {
+  background: url(./hamburger.png);
+background-repeat: no-repeat;
+background-size: 50px 50px;
+width: 50px;
+height: 50px;
+}
 }
 
